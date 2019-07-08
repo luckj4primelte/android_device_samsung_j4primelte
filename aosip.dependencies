@@ -1,0 +1,7 @@
+[
+  {
+    "repository": "geckyn/android_device_samsung_j4primelte",
+    "branch": "derp",
+    "target_path": "device/samsung/j4primelte"
+  }
+]

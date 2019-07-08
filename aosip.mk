@@ -17,15 +17,25 @@ $(call inherit-product, device/samsung/j4primelte/device.mk)
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common AOSIP stuff.
+$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_j4primelte
+PRODUCT_NAME := aosip_j4primelte
 PRODUCT_DEVICE := j4primelte
 PRODUCT_BRAND := Samsung
 PRODUCT_MODEL := Galaxy J4+
 PRODUCT_MANUFACTURER := Samsung
+
+# GApps targets
+TARGET_GAPPS_ARCH := arm
+IS_PHONE := true
+
+# GApps
+$(call inherit-product-if-exists, vendor/gapps/config.mk)
+
+# PixelStyle
+$(call inherit-product-if-exists, vendor/pixelstyle/config.mk)
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 

@@ -1313,7 +1313,6 @@ vendor/bin/cnss_diag
 
 # rootdir
 vendor/bin/adpl
-vendor/bin/hw/rild
 vendor/bin/ipacm-diag
 vendor/bin/ptt_socket_app
 

@@ -17,14 +17,14 @@ $(call inherit-product, device/samsung/j4primelte/device.mk)
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common AEX stuff.
-$(call inherit-product, vendor/aosp/common.mk)
+# Inherit some common havoc stuff.
+$(call inherit-product, vendor/havoc/config/common.mk)
 
 # Include Bootanimation configuration
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_j4primelte
+PRODUCT_NAME := havoc_j4primelte
 PRODUCT_DEVICE := j4primelte
 PRODUCT_BRAND := Samsung
 PRODUCT_MODEL := Galaxy J4+

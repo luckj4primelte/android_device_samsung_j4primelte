@@ -20,9 +20,9 @@
     <ctl name="Voip Evrc Min Max Rate Config" id="1" value="4" />
     <ctl name="Voip Dtx Mode" value="0" />
     <ctl name="TTY Mode" value="OFF" />
-    <ctl name="RX1 Digital Volume" value="84" />
-    <ctl name="RX2 Digital Volume" value="84" />
-    <ctl name="RX3 Digital Volume" value="84" />
+    <ctl name="RX1 Digital Volume" value="96" />
+    <ctl name="RX2 Digital Volume" value="96" />
+    <ctl name="RX3 Digital Volume" value="96" />
     <ctl name="IIR1 INP1 Volume" value="84" />
     <ctl name="IIR1 INP2 Volume" value="84" />
     <ctl name="IIR1 INP3 Volume" value="84" />
@@ -1010,25 +1010,25 @@
 
     <path name="handset">
         <path name="rcv" />
-        <ctl name="RX1 Digital Volume" value="81" />
+        <ctl name="RX1 Digital Volume" value="94" />
         <ctl name="EAR PA Gain" value="POS_6_DB" />
     </path>
 
     <path name="handset-lf">
         <path name="rcv" />
-        <ctl name="RX1 Digital Volume" value="83" />
+        <ctl name="RX1 Digital Volume" value="94" />
         <ctl name="EAR PA Gain" value="POS_6_DB" />
     </path>
 
     <path name="speaker">
         <path name="spk" />
-        <ctl name="RX3 Digital Volume" value="82" />
+        <ctl name="RX3 Digital Volume" value="96" />
     </path>
 
     <path name="headset">
         <path name="ear" />
-        <ctl name="RX1 Digital Volume" value="79" />   
-        <ctl name="RX2 Digital Volume" value="79" />
+        <ctl name="RX1 Digital Volume" value="94" />   
+        <ctl name="RX2 Digital Volume" value="94" />
         <ctl name="EAR PA Gain" value="POS_6_DB" />    
 	<!--		<ctl name="HPHL Volume" value="16" />
 		<ctl name="HPHR Volume" value="16" />
@@ -1038,44 +1038,44 @@
 
     <path name="speaker-and-headphones">
         <path name="spk-ear" />
-        <ctl name="RX1 Digital Volume" value="52" />
-        <ctl name="RX2 Digital Volume" value="52" />
-        <ctl name="RX3 Digital Volume" value="82" />
+        <ctl name="RX1 Digital Volume" value="94" />
+        <ctl name="RX2 Digital Volume" value="94" />
+        <ctl name="RX3 Digital Volume" value="94" />
         <ctl name="EAR PA Gain" value="POS_6_DB" />
     </path>
 
     <path name="speaker-and-headphones-bt-sco">
         <path name="spk-ear" />
-        <ctl name="RX1 Digital Volume" value="82" />
-        <ctl name="RX2 Digital Volume" value="82" />
-        <ctl name="RX3 Digital Volume" value="86" />
+        <ctl name="RX1 Digital Volume" value="94" />
+        <ctl name="RX2 Digital Volume" value="94" />
+        <ctl name="RX3 Digital Volume" value="94" />
         <ctl name="EAR PA Gain" value="POS_6_DB" />
     </path>
 
     <path name="speaker-and-bt-sco">
         <path name="spk" />
-        <ctl name="RX3 Digital Volume" value="84" />
+        <ctl name="RX3 Digital Volume" value="95" />
     </path>
 
     <path name="speaker-and-bt-sco-wb">
         <path name="spk" />
-        <ctl name="RX3 Digital Volume" value="86" />
+        <ctl name="RX3 Digital Volume" value="94" />
     </path>
 
     <path name="speaker-and-proxy">
         <path name="spk" />
-        <ctl name="RX3 Digital Volume" value="84" />
+        <ctl name="RX3 Digital Volume" value="94" />
     </path>
 
     <path name="fm-speaker">
         <path name="spk" />
-        <ctl name="RX3 Digital Volume" value="82" />
+        <ctl name="RX3 Digital Volume" value="94" />
     </path>
 
     <path name="fm-headset">
         <path name="ear" />
-        <ctl name="RX1 Digital Volume" value="74" />
-        <ctl name="RX2 Digital Volume" value="74" />
+        <ctl name="RX1 Digital Volume" value="90" />
+        <ctl name="RX2 Digital Volume" value="90" />
         <ctl name="EAR PA Gain" value="POS_6_DB" />
     </path>
 

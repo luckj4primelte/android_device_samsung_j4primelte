@@ -45,7 +45,7 @@ TARGET_KERNEL_APPEND_DTB := true
 TARGET_KERNEL_ARCH := arm
 TARGET_KERNEL_HEADER_ARCH := arm
 TARGET_KERNEL_SOURCE := kernel/samsung/msm8917
-TARGET_KERNEL_CONFIG := j4primelte_defconfig
+TARGET_KERNEL_CONFIG := phizero_defconfig
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-androideabi-
 
 # Bluetooth

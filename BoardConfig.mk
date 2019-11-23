@@ -105,5 +105,11 @@ PRODUCT_USE_VNDK_OVERRIDE := false
 PRODUCT_SHIPPING_API_LEVEL := 27
 BOARD_VNDK_RUNTIME_DISABLE := true
 
+ENABLE_VENDOR_IMAGE := true
+BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
+TARGET_COPY_OUT_VENDOR := vendor
+PRODUCT_VENDOR_MOVE_ENABLED := true
+PRODUCT_FULL_TREBLE_OVERRIDE := true
+
 # Inherit from the proprietary version
 -include vendor/samsung/j4primelte/BoardConfigVendor.mk

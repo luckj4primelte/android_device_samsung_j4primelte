@@ -100,3 +100,4 @@ PRODUCT_PACKAGES += \
 
 # Properties
 -include $(LOCAL_PATH)/system_prop.mk
+-include $(LOCAL_PATH)/vendor_prop.mk

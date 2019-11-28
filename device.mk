@@ -82,6 +82,7 @@ PRODUCT_PACKAGES += \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libaacwrapper \
+    libtinycompress \
     tinymix
 
 PRODUCT_PACKAGES += \
@@ -171,8 +172,9 @@ PRODUCT_PACKAGES += \
 # Keymaster HAL
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0-impl \
-    android.hardware.keymaster@3.0-service
-
+    android.hardware.keymaster@3.0-service \
+    libkeystore-engine-wifi-hidl \
+    libkeystore-wifi-hidl 
 
 # QMI
 PRODUCT_PACKAGES += \
@@ -219,4 +221,10 @@ PRODUCT_PACKAGES += \
 # Wifi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
-
+    hostapd \
+    libwifi-hal-qcom \
+    libwpa_client \
+    wpa_supplicant \
+    wpa_supplicant.conf \
+    vendor.qti.hardware.wifi.hostapd@1.0.vendor \
+    vendor.qti.hardware.wifi.supplicant@2.0.vendor

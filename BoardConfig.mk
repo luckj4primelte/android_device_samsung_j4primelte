@@ -122,6 +122,8 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
 # Selinux
 BOARD_SEPOLICY_VERS := 28.0
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+include device/qcom/sepolicy/sepolicy.mk
 
 # Treble
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true

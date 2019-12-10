@@ -114,7 +114,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.sec.rild.libpath=/vendor/lib/libsec-ril.so \
     sys.vendor.shutdown.waittime=500 \
     sdm.debug.disable_skip_validate=1 \
-	debug.hwui.renderer=opengl \
 	ro.sf.lcd_density=260 \
 	persist.radio.multisim.config=dsds \
     dev.usbsetting.embedded=on \

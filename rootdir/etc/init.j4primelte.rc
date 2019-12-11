@@ -1,6 +1,8 @@
 on init
 	mount none /vendor/etc/empty /vendor/lib/hw/keystore.mdfpp.so bind
 	mount none /vendor/etc/empty /vendor/lib/hw/keystore.msm8937.so bind
+	mount none /vendor/etc/audio_policy_configuration.xml /vendor/etc/audio/audio_policy_configuration.xml bind
+	mount none /vendor/etc/audio_platform_info.xml /vendor/etc/audio/audio_platform_info.xml bind
 
 on early-init
 # Detect device variant and dual sim support

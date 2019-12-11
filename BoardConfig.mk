@@ -197,3 +197,6 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 BOARD_HAVE_SAMSUNG_WIFI := true
 
 -include vendor/samsung/j4primelte/BoardConfigVendor.mk
+
+# DT2W
+TARGET_TAP_TO_WAKE_NODE := "/sys/android_touch/doubletap2wake"

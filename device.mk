@@ -239,6 +239,11 @@ PRODUCT_PACKAGES += \
     Lawnchair \
     LawnConf
 
+# Lawnchair
+PRODUCT_COPY_FILES += \
+    launcher/Lawnchair/etc/privapp-permissions-lawnchair.xml:system/etc/permissions/privapp-permissions-lawnchair.xml \
+    launcher/Lawnchair/etc/lawnchair-hiddenapi-package-whitelist.xml:system/etc/sysconfig/lawnchair-hiddenapi-package-whitelist.xml
+
 # Low power Whitelist
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/qti_whitelist.xml:system/etc/sysconfig/qti_whitelist.xml

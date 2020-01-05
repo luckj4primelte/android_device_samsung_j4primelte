@@ -1,6 +1,9 @@
 on init
 	mount none /vendor/etc/empty /vendor/lib/hw/keystore.mdfpp.so bind
 	mount none /vendor/etc/empty /vendor/lib/hw/keystore.msm8937.so bind
+	# Disable Bloatwares
+	mount none /odm/lost+found /odm/app bind
+	mount none /odm/lost+found /odm/priv-app bind
 
 on early-init
 # Detect device variant and dual sim support

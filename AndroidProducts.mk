@@ -14,8 +14,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_j4primelte.mk
+    $(LOCAL_DIR)/bliss_j4primelte.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_j4primelte-userdebug \
-    lineage_j4primelte-eng
+    bliss_j4primelte-userdebug \
+    bliss_j4primelte-eng

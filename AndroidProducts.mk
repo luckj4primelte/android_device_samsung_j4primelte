@@ -14,8 +14,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aicp_j4primelte.mk
+    $(LOCAL_DIR)/aosip_j4primelte.mk
 
 COMMON_LUNCH_CHOICES := \
-    aicp_j4primelte-userdebug \
-    aicp_j4primelte-eng
+    aosip_j4primelte-userdebug \
+    aosip_j4primelte-eng

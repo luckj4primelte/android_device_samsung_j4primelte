@@ -14,8 +14,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bliss_j4primelte.mk
+    $(LOCAL_DIR)/aicp_j4primelte.mk
 
 COMMON_LUNCH_CHOICES := \
-    bliss_j4primelte-userdebug \
-    bliss_j4primelte-eng
+    aicp_j4primelte-userdebug \
+    aicp_j4primelte-eng

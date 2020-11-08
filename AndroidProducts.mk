@@ -14,8 +14,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosip_j4primelte.mk
+    $(LOCAL_DIR)/revengeos_j4primelte.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosip_j4primelte-userdebug \
-    aosip_j4primelte-eng
+    revengeos_j4primelte-userdebug \
+    revengeos_j4primelte-eng

@@ -17,8 +17,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from Potato vendor
-$(call inherit-product, vendor/potato/config/common_full_phone.mk)
+# Inherit StagOS stuffs
+$(call inherit-product, vendor/stag/config/main.mk)
 
 # Inherit from j4primelte device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -31,7 +31,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 PRODUCT_BRAND := samsung
 PRODUCT_DEVICE := j4primelte
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_NAME := potato_j4primelte
+PRODUCT_NAME := stag_j4primelte
 PRODUCT_MODEL := Galaxy J4+
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung

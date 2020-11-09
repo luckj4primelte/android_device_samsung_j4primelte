@@ -14,8 +14,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/potato_j4primelte.mk
+    $(LOCAL_DIR)/stag_j4primelte.mk
 
 COMMON_LUNCH_CHOICES := \
-    potato_j4primelte-userdebug \
-    potato_j4primelte-eng
+    stag_j4primelte-userdebug \
+    stag_j4primelte-eng

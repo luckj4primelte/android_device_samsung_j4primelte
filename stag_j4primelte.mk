@@ -18,7 +18,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit StagOS stuffs
-$(call inherit-product, vendor/stag/config/main.mk)
+$(call inherit-product, vendor/stag/main.mk)
 
 # Inherit from j4primelte device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)

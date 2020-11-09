@@ -14,8 +14,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/revengeos_j4primelte.mk
+    $(LOCAL_DIR)/potato_j4primelte.mk
 
 COMMON_LUNCH_CHOICES := \
-    revengeos_j4primelte-userdebug \
-    revengeos_j4primelte-eng
+    potato_j4primelte-userdebug \
+    potato_j4primelte-eng

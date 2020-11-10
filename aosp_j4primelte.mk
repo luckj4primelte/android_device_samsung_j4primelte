@@ -17,8 +17,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common AOSPA stuff
-$(call inherit-product, vendor/pa/config/common_full_phone.mk)
+# Inherit some common AEX stuff
+$(call inherit-product, vendor/aosp/common.mk)
 
 # Inherit from j4primelte device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -26,10 +26,13 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # Installs gsi keys into ramdisk, to boot a GSI with verified boot.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
+# Bootanimation res
+TARGET_BOOT_ANIMATION_RES := 1080
+
 PRODUCT_BRAND := samsung
 PRODUCT_DEVICE := j4primelte
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_NAME := pa_j4primelte
+PRODUCT_NAME := aosp_j4primelte
 PRODUCT_MODEL := Galaxy J4+
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung

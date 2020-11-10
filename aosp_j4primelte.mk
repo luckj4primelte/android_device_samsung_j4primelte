@@ -17,7 +17,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common AEX stuff
+# Inherit some common Evolution X stuff
 $(call inherit-product, vendor/aosp/common.mk)
 
 # Inherit from j4primelte device
